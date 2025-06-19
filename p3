@@ -1,0 +1,18 @@
+// Girilen 2 sayı arasındaki sayıları toplayan program
+
+int main()
+{
+	int a, b;
+	int c =0;
+
+	std::cout << "1. sayıyı giriniz:" << std::endl;
+	std::cin >> a;
+	std::cout << "2. sayıyı giriniz:" << std::endl;
+	std::cin >> b;
+
+	for (int i = a; i <= b; i++)
+	{
+		c = c+i;
+	}
+	std::cout << "Sonuç=" << c;
+}
