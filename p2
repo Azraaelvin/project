@@ -1,0 +1,17 @@
+// Girilen Sayının Faktöriyelini Bulan Program
+
+int main()
+{
+	int a;
+	int b = 1;
+	std::cout << "Sayı:" << std::endl;
+	std::cin >> a;
+
+	for(int i=1;i>a+1;i++)
+	{
+		b *= i;
+	}
+
+	std::cout << "Sayının faktöriyeli=" << b;
+	return 0;
+}
