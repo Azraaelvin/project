@@ -1,0 +1,23 @@
+// 5 sayının toplamı ve ortalaması
+
+int main()
+{
+	int a, b, c, d, e, f;
+	float g;
+	std::cout << "1. sayıyı giriniz:" << std::endl;
+	std::cin >> a;
+	std::cout << "2. sayıyı giriniz:" << std::endl;
+	std::cin >> b;
+	std::cout << "3. sayıyı giriniz:" << std::endl;
+	std::cin >> c;
+	std::cout << "4. sayıyı giriniz:" << std::endl;
+	std::cin >> d;
+	std::cout << "5. sayıyı giriniz:" << std::endl;
+	std::cin >> e;
+	f = a + b + c + d + e;
+	g = f / 5;
+
+	std::cout << "Sayıların Toplamı=" << f<<"\n";
+	std::cout << "Sayıların Ortalaması=" << g;
+	return 0;
+}
